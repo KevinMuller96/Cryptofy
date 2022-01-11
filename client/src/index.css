@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+* html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.gradient-bg-welcome {
+  background-color: #120c2b;
+  background-image: radial-gradient(
+      at 0% 0%,
+      rgb(48, 12, 226) 0,
+      transparent 50%
+    ),
+    radial-gradient(at 50% 0%, rgb(211, 215, 228) 0, transparent 50%),
+    radial-gradient(at 100% 0%, rgb(43, 5, 5) 0, transparent 50%);
+}
+
+.gradient-bg-services {
+  background-color: #100244;
+  background-image: radial-gradient(
+      at 0% 0%,
+      hsla(253, 16%, 7%, 1) 0,
+      transparent 50%
+    ),
+    radial-gradient(at 50% 100%, hsla(225, 39%, 25%, 1) 0, transparent 50%);
+}
+
+.gradient-bg-transactions {
+  background-color: #100244;
+  background-image: radial-gradient(
+      at 0% 100%,
+      hsla(253, 16%, 7%, 1) 0,
+      transparent 50%
+    ),
+    radial-gradient(at 50% 0%, hsla(225, 39%, 25%, 1) 0, transparent 50%);
+}
+
+.gradient-bg-footer {
+  background-color: #100635;
+  background-image: radial-gradient(
+      at 0% 100%,
+      rgb(72, 59, 134) 0,
+      transparent 53%
+    ),
+    radial-gradient(at 50% 150%, rgb(95, 30, 53) 0, transparent 50%);
+}
+
+.blue-glassmorphism {
+  background: rgb(39, 51, 89, 0.4);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+/* white glassmorphism */
+.white-glassmorphism {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.eth-card {
+  background-color: #a099ff;
+  background-image: #99f0ff;
+  background-image: radial-gradient(
+      at 26% 42%,
+      hsla(54, 88%, 70%, 1) 0,
+      transparent 40%
+    ),
+    radial-gradient(at 78% 18%, hsla(270, 90%, 68%, 1) 0, transparent 53%),
+    radial-gradient(at 6% 27%, hsla(258, 76%, 79%, 1) 0, transparent 50%),
+    radial-gradient(at 92% 33%, hsla(358, 69%, 75%, 1) 0, transparent 45%),
+    radial-gradient(at 97% 97%, hsla(168, 72%, 71%, 1) 0, transparent 57%),
+    radial-gradient(at 5% 99%, hsla(262, 90%, 75%, 1) 0, transparent 42%),
+    radial-gradient(at 4% 68%, hsla(243, 89%, 69%, 1) 0, transparent 49%);
+}
+
+.text-gradient {
+  background-color: #fff;
+  background-image: radial-gradient(
+      at 4% 36%,
+      hsla(0, 0%, 100%, 1) 0,
+      transparent 53%
+    ),
+    radial-gradient(at 100% 60%, rgb(0, 0, 0) 0, transparent 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+  background-image: 
+    radial-gradient(at 83% 67%, rgb(152, 231, 156) 0, transparent 58%),
+    radial-gradient(at 67% 20%, hsla(357, 94%, 71%, 1) 0, transparent 59%),
+    radial-gradient(at 88% 35%, hsla(222, 81%, 65%, 1) 0, transparent 50%),
+    radial-gradient(at 31% 91%, hsla(9, 61%, 61%, 1) 0, transparent 52%),
+    radial-gradient(at 27% 71%, hsla(336, 91%, 65%, 1) 0, transparent 49%),
+    radial-gradient(at 74% 89%, hsla(30, 98%, 65%, 1) 0, transparent 51%),
+    radial-gradient(at 53% 75%, hsla(174, 94%, 68%, 1) 0, transparent 45%);
+*/
+
+/*
+Snyggare ETH Kort
+background-image:#9b99ff;background-image:  
+radial-gradient(at 65% 39%, hsla(96,96%,64%,1) 0, transparent 46%),  
+radial-gradient(at 69% 32%, hsla(308,69%,74%,1) 0, transparent 58%),  
+radial-gradient(at 30% 48%, hsla(294,92%,69%,1) 0, transparent 52%),  
+radial-gradient(at 16% 92%, hsla(42,66%,61%,1) 0, transparent 40%),  
+radial-gradient(at 78% 59%, hsla(312,71%,63%,1) 0, transparent 55%),  
+radial-gradient(at 25% 40%, hsla(103,62%,66%,1) 0, transparent 54%),  
+radial-gradient(at 51% 83%, hsla(54,67%,60%,1) 0, transparent 51%);
+*/
+
+/*
+background-image:#99f0ff;background-image:  
+radial-gradient(at 26% 42%, hsla(54,88%,70%,1) 0, transparent 40%),  
+radial-gradient(at 78% 18%, hsla(270,90%,68%,1) 0, transparent 53%),  
+radial-gradient(at 6% 27%, hsla(258,76%,79%,1) 0, transparent 50%),  
+radial-gradient(at 92% 33%, hsla(358,69%,75%,1) 0, transparent 45%),  
+radial-gradient(at 97% 97%, hsla(168,72%,71%,1) 0, transparent 57%),  
+radial-gradient(at 5% 99%, hsla(262,90%,75%,1) 0, transparent 42%),  
+radial-gradient(at 4% 68%, hsla(243,89%,69%,1) 0, transparent 49%);
+*/
+
+/*
+background-image:#99aaff;background-image:  
+radial-gradient(at 65% 33%, hsla(123,65%,68%,1) 0, transparent 49%),  
+radial-gradient(at 50% 39%, hsla(276,63%,73%,1) 0, transparent 48%),  
+radial-gradient(at 18% 62%, hsla(208,99%,74%,1) 0, transparent 53%),  
+radial-gradient(at 66% 52%, hsla(199,73%,79%,1) 0, transparent 53%),  
+radial-gradient(at 28% 59%, hsla(16,88%,61%,1) 0, transparent 45%),  
+radial-gradient(at 68% 78%, hsla(199,75%,71%,1) 0, transparent 48%),  
+radial-gradient(at 33% 29%, hsla(133,83%,65%,1) 0, transparent 48%);
+*/
